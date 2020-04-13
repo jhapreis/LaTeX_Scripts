@@ -1,0 +1,108 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=1.7cm, right=1.7cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+
+\begin{document}
+
+\begin{center}
+\textbf{Liste de Números Complexos}
+\end{center}
+
+\textbf{Resumo}
+\\
+
+
+\begin{itemize}
+
+\item $\mathbb{R} \longrightarrow$ \textbf{Reta} Real
+
+\item $\mathbb{C} \longrightarrow$ \textbf{Plano} Complexo (também chamado de Plano de Argand-Gauss)
+
+\item $ \mathbb{C} = \{ z = a + bi \, | \, a,b \, \in \mathbb{R} \textrm{, onde } i^2 = -1 \} $
+
+\item A representação de um complexo como um ponto no plano recebe o nome de \textbf{afixo}
+
+\item Multiplicar por $i$ corresponde a rotacionar um complexo exatamente $90^{\circ}$ no sentido anti-horário, mantendo o tamanho original do vetor. Para rotacionar por ângulos diferentes, bem como para mudar o módulo, multiplicaremos por números complexos específicos, dependendo de cada resultado que se queira obter.
+
+\item Para converter de graus para radianos (ou vice-versa), faça a seguinte regra de três:
+
+$\dfrac{\theta}{\alpha^{\circ}} = \dfrac{\pi}{180^{\circ}}$ , com $\theta$ em radianos
+
+\item Forma algébrica (ou retangular)
+
+
+	\begin{itemize}
+
+\item $ \textrm{Parte Real e Parte Imagin\'aria: } a = \textrm{Re} (z) \textrm{ e } b = \textrm{Im} (z) \textrm{ representam as coordenadas do complexo no plano} $
+
+\item $ \textrm{Igualdade: } z_1 = z_2 \longleftrightarrow a + bi = c + di \longrightarrow a = c \textrm{ e } b = d $
+
+\item $ \textrm{Soma: } z_1 + z_2 = (a + bi) + (c + di) = (a + c) + (b + d)i \in \mathbb{C} $
+
+\item $ \textrm{Multiplicação: } z_1 \cdot z_2 = (a + bi) \cdot (c + di) = (ac - bd) + (bc + ad)i \in \mathbb{C}$
+
+\item $ \textrm{Conjugado: } z = a + bi \longrightarrow \overline{z} = a - bi $
+
+\item $ \textrm{Divisão: } \dfrac{z_1}{z_2} = \dfrac{ z_1 \cdot \overline{z_2} }{z_2 \cdot \overline{z_2}} $
+
+	\end{itemize}
+
+\item Forma trigonométrica (ou polar)
+
+
+	\begin{itemize}
+	
+\item Módulo: $ |z| $ é o tamanho do vetor que liga a origem até o afixo, no plano complexo	
+
+\item Argumento: $ arg(z) = \theta $; ângulo entre a parte positiva do eixo dos reais, seguindo em sentido anti-horário, até o vetor que representa o número complexo
+	
+\item Notação: $ z = |z|cis(\theta) = (\, |z| ; arg(z) \,)$
+
+\item Soma: \textbf{não faça somas nessa forma, porque é muito complicado e trabalhoso}
+
+\item Multiplicação: $z_1 \cdot z_2 = |z_1| \cdot |z_2| \cdot cis(\theta_1 + \theta_2) $
+
+\item Conjugado: $z = |z| \cdot cis(\theta) \longrightarrow \overline{z} = |z| \cdot cis (-\theta) $
+
+\item Divisão: $ \dfrac{z_1}{z_2} = \dfrac{|z_1|}{|z_2|} \cdot cis(\theta_1 - \theta_2) $
+
+	\end{itemize}
+
+
+\item Conversão: algébrica $\longleftrightarrow$ trigonométrica
+
+
+	\begin{itemize}
+	
+\item Algébrica $\longrightarrow$ trigonométrica
+
+$ |z| = \sqrt{a^2 + b^2} $ e $ arg(z) = arctan (\dfrac{b}{a}) $
+
+\item Trigonométrica $\longrightarrow$ algébrica
+
+$ a = |z| \cdot cos(\theta) $ e $ b = |z| \cdot sin(\theta) $
+	
+	\end{itemize}
+
+
+\item Fórmulas de De Moivre
+
+	\begin{itemize}
+
+\item As fórmulas de De Moivre falam de potenciação e radiciação com $n \in \mathbb{Z}$. Portanto, a menos que você fique confortável calculando coisas do tipo $z^n = (a + bi)^n$, expandindo o Binômio de Newton, ou coisas do tipo $\sqrt[n]{z} = \sqrt[n]{a + bi}$, sugiro que use sempre a forma trigonométrica para calculá-las.
+
+\item $n \in \mathbb{Z}$
+
+\item Potenciação: $ z^n = |z|^n \cdot cis(n\cdot\theta)$
+
+\item Radiciação: $ \sqrt[n]{z} = \sqrt[n]{|z|} \cdot cis( \dfrac{\theta + 2k\pi}{n} ) $
+	
+	
+	\end{itemize}
+
+\end{itemize}
+
+
+
+\end{document}
