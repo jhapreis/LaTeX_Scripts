@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.16)  14 JUN 2020 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.16)  15 JUN 2020 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**numeros-complexos_v02.tex
-(./numeros-complexos_v02.tex
+**lab3-exp4_v04.tex
+(./lab3-exp4_v04.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -170,23 +170,23 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count192
 \l__pdf_internal_box=\box47
 )
-(./numeros-complexos_v02.aux)
-\openout1 = `numeros-complexos_v02.aux'.
+(./lab3-exp4_v04.aux)
+\openout1 = `lab3-exp4_v04.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -274,160 +274,126 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+LaTeX Warning: Command \textmu invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 17.
+
+Missing character: There is no µ in font cmr10!
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textmu invalid in math mode on input line 17.
+
+Missing character: There is no µ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
-
- []
-
-[3]
-Overfull \hbox (2.0446pt too wide) in paragraph at lines 237--238
-[]\OT1/cmr/m/n/10.95 Ache os pon-tos de in-ter-sec^^Xc~ao dos lu-ga-res geom^^S
-etricos que re-pre-sen-tam as solu^^Xc~oes des-sas equa^^Xc~oes. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--265
-
- []
-
-[4]
-Package epstopdf Info: Source file: <geogebra-export_1.eps>
-(epstopdf)                    date: 2020-05-22 16:24:02
-(epstopdf)                    size: 3934559 bytes
-(epstopdf)             Output file: <geogebra-export_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-22 16:24:02
-(epstopdf)                    size: 203242 bytes
-(epstopdf)             Command: <repstopdf --outfile=geogebra-export_1-eps-conv
-erted-to.pdf geogebra-export_1.eps>
-(epstopdf)             \includegraphics on input line 299.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./geogebra-export_1-eps-converted-to.pd
-f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<geogebra-export_1-eps-converted-to.pdf, id=26, 355.3275pt x 256.96pt>
-File: geogebra-export_1-eps-converted-to.pdf Graphic file (type pdf)
-<use geogebra-export_1-eps-converted-to.pdf>
-Package pdftex.def Info: geogebra-export_1-eps-converted-to.pdf  used on input 
-line 299.
-(pdftex.def)             Requested size: 177.6633pt x 128.47968pt.
-Package epstopdf Info: Source file: <geogebra_2.eps>
-(epstopdf)                    date: 2020-05-22 16:24:02
-(epstopdf)                    size: 1172851 bytes
-(epstopdf)             Output file: <geogebra_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-22 16:24:02
-(epstopdf)                    size: 180038 bytes
-(epstopdf)             Command: <repstopdf --outfile=geogebra_2-eps-converted-t
-o.pdf geogebra_2.eps>
-(epstopdf)             \includegraphics on input line 305.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./geogebra_2-eps-converted-to.pdf): PDF
- inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<geogebra_2-eps-converted-to.pdf, id=27, 934.49126pt x 770.88pt>
-File: geogebra_2-eps-converted-to.pdf Graphic file (type pdf)
-<use geogebra_2-eps-converted-to.pdf>
-Package pdftex.def Info: geogebra_2-eps-converted-to.pdf  used on input line 30
-5.
-(pdftex.def)             Requested size: 186.89494pt x 154.17326pt.
-Package epstopdf Info: Source file: <geogebra_3.eps>
-(epstopdf)                    date: 2020-05-22 16:24:02
-(epstopdf)                    size: 4919586 bytes
-(epstopdf)             Output file: <geogebra_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-22 16:24:02
-(epstopdf)                    size: 32722 bytes
-(epstopdf)             Command: <repstopdf --outfile=geogebra_3-eps-converted-t
-o.pdf geogebra_3.eps>
-(epstopdf)             \includegraphics on input line 311.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./geogebra_3-eps-converted-to.pdf): PDF
- inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<geogebra_3-eps-converted-to.pdf, id=28, 91.34125pt x 66.2475pt>
-File: geogebra_3-eps-converted-to.pdf Graphic file (type pdf)
-<use geogebra_3-eps-converted-to.pdf>
-Package pdftex.def Info: geogebra_3-eps-converted-to.pdf  used on input line 31
-1.
-(pdftex.def)             Requested size: 210.08461pt x 152.36905pt.
-[5 <./geogebra-export_1-eps-converted-to.pdf> <./geogebra_2-eps-converted-to.pd
-f> <./geogebra_3-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-[6] [7] [8] (./numeros-complexos_v02.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[2] (./lab3-exp4_v04.aux) ) 
 Here is how much of TeX's memory you used:
- 3895 strings out of 481239
- 54090 string characters out of 5920377
- 313053 words of memory out of 5000000
- 19101 multiletter control sequences out of 15000+600000
- 538340 words of font info for 46 fonts, out of 8000000 for 9000
+ 3868 strings out of 481239
+ 53287 string characters out of 5920377
+ 313045 words of memory out of 5000000
+ 19081 multiletter control sequences out of 15000+600000
+ 537327 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,29p,383b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm
--super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on numeros-complexos_v02.pdf (8 pages, 585130 bytes).
+ 34i,4n,29p,1009b,105s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-
+ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm1095.pfb>
+Output written on lab3-exp4_v04.pdf (2 pages, 69748 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
