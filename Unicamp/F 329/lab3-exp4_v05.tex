@@ -1,0 +1,89 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage[brazil]{babel}
+
+\begin{document}
+%======================================================
+
+O experimento “Medidas com Osciloscópio” tem o intuito de verificar o comportamento de sinais periódicos da tensão em circuitos com resistores, capacitores, diodos e LED. 
+Para tanto, utilizaremos gerador de funções, osciloscópio, resistores de 1KΩ (R1) e 4,7KΩ (R2), capacitor de 47nF, LED e diodo de silício. Devemos primeiro construir o circuito A que consiste em gerador de funções, resistores de 1KΩ e 4,7KΩ e osciloscópio. 
+Com canal 1 ligado ao terminal do resistor R1 e canal 2 ligado ao terminal R2 – temos um divisor de tensões. Então, para o circuito B, trocamos o resistor R1 pelo diodo e verificamos o comportamento. 
+No circuito C, retiramos o diodo e inserimos o capacitor de 47nF – iremos variar a frequência(f) de 1Hz até 1MHz. 
+Por fim, no circuito D trocamos o capacitor pelo LED para observarmos o comportamento do LED conforme o aumento da frequência e a mudança dos sinais – funções quadrada, seno e triangular.\\
+
+Antes de iniciar os experimentos, fizemos simulações no Tinkercad para os circuitos A, B e C – anexos I, II, III, IV e V. 
+Para o divisor de tensões do circuito A, quando o gerador de funções está definido para f =100Hz, A = 4V, deslocamento CC = 0V e função seno, no canal 1 temos $A = 2V$ e período $T = 10ms$. Para o canal 2 temos $A = 330mV$ e $T = 10ms$. Não há diferença de fase entre os canais.\\
+
+Para o circuito B ($f = 100Hz, A = 8V$, função seno e deslocamento $CC = 0V$), obtivemos no canal 1 $A = 3,2V$ e  $T = 10ms$. 
+Para o canal 2 temos que quando a tensão deveria ser negativa, ela é zero – diodo impede a passagem de corrente na polarização inversa.
+Quando a tensão é positiva $(-0,07 \, T < t < 0,47 \, T)$, a amplitude = 3,2V e T = 10ms. 
+Notamos que há diferença de fase entre os canais.\\
+
+Para o circuito C ($f = 10Hz$, $A = 4V$, função seno e deslocamento $CC = 0V$), o canal 1 apresentou $T = 100ms$ e $A = 2V$. 
+Para o canal 2 tivemos $T = 100ms$ e $A = 6mV$, há uma pequena diferença de fase. Alterando a frequência no gerador de funções para 1kHz, temos: $A = 2V$ e $T = 1ms$ para canal 1; 0,6V e período de 1ms para canal 2, mínima diferença de fase. 
+Fazendo a frequência ser de 300kHz, obtemos: $A = 2V$ e $T = 3,33\mu s$ para canal 1; para canal 2 temos $A = 2V$ e $T = 3,33\mu s$. 
+Não notamos diferença de fase.\\
+
+Iniciado o experimento, deixamos tensão (Vpp) = 4v e f = 100Hz no gerador de funções para o circuito A. 
+Para o canal 1, $A = (2,04V \pm 0,09)V$  e $f = (200 \pm 6)Hz$, com tais dados e usando a fórmula $V = A \cdot sin(\omega t + \phi_{0})$, temos: $V = 2,04 \cdot sen(200\pi t + 0,03\pi)$. 
+Para o canal 2: $A = (0,35 \pm 0,01)V$, $f = (200 \pm 6)Hz$, $V = 0,350sen(200\pi t + 0,03\pi)$. 
+Comparando as expressões, observamos que estão em fase, adotamos a incerteza da diferença de fase como seu valor, $\phi = 0,002 \pi \, rad$. 
+O divisor de tensões resistivo provocou queda na amplitude do canal 2. \\
+
+Ainda, sabendo a amplitude do canal 1 e os valores de resistência de R1 e R2, fomos em busca da amplitude para o canal 2 – cálculos nos anexos. 
+Chegamos em um valor de amplitude igual a $(0,35 \pm 0,02)$V. 
+Utilizando uma medição mais direita da amplitude – valor fornecido pelo osciloscópio – temos: $(0,35 \pm 0,01)$V. 
+Logo, os valores coincidem no intervalo das incertezas. Os valores das simulações também se mostraram muito próximos.\\
+
+Fizemos a comparação do valor da tensão fornecido pelo multímetro e pelo osciloscópio: calculamos $Vp = \dfrac{ V_{RMS} }{0,707}$  e comparamos seu valor com sua respectiva incerteza com os valores de A1 e A2; $Vp1 = (1,991 \pm 0,009)$V e $A1 = (2,04 \pm 0,09)$V; $Vp2 = (0,342 \pm 0,004)$V e $A2 = ((0,35 \pm 0,02)$V. 
+Comparando os valores com os intervalos de incerteza, temos que os valores coincidem – a incerteza do osciloscópio é muito maior para a tensão.\\
+
+Para o circuito B, utilizando $f = 100Hz$ e $Vpp = 4V$, temos: para o canal 1, $A = (3,8 \pm 0,2)$V, $f = (200 \pm 6)Hz$ e $V = 3,84sen(200 \pi t + 0,01 \pi)$; para o canal 2, quando as tensões deveriam ser negativas, a tensão é nula, já que o diodo evita a passagem de corrente na polarização inversa; para tensões positivas a partir de um valor característico do diodo, a tensão no osciloscópio começa a aumentar. 
+No intervalo das tensões positivas $0,0007 \, T < t < 0,0478 \, T$, $A = (3,28 \pm 0,1)$V, $f = (200 \pm 6)Hz$ e $V = 3,28sen(200 \pi t + 0,01 \pi)$. Para $0 \leq t \leq 0,007T$ ou $0,0478 \, T \leq t \leq T$ , $V= 0$. 
+Comparando as expressões temos que estão em fase e utilizamos a incerteza como valor da diferença de fase, $\phi = 0,002 \pi \, rad$. 
+Os valores das simulações se mostraram coerentes frente aos resultados experimentais, porém não notamos diferença de fase.\\
+
+Para o circuito C, utilizando $f = 10Hz$ e $Vpp = 4V$, temos: para  canal 1, $A = (2,04 \pm 0,09)$V, $f = (20,0 \pm 0,6)Hz$ e $V = 2,04sen(20 \pi t + 0,02 \pi)$; para canal 2, $A = (0,007 \pm 0,003)$V, $f = (19,9 \pm 0,6)Hz$ e $V = 0,007sen(20\pi t + 0,47 \pi)$. 
+Analisando os dados, observamos que há uma diferença de fase entre os canais, $\phi = (0,45 \pi \pm 0,03 \pi) \, rad $. A simulação se mostrou condizente.\\
+
+Para $f = 1kHz$: canal 1, $A = (2,04 \pm 0,09)$V, $f = ((200 \pm 6)kHz$ e $V=2,04sen(2000 \pi t + 0,026 \pi )$; canal 2, $A = (0,61 \pm 0,02)$V, $f = (200 \pm 6)kHz$ e $V=0,61sen(2000 \pi t + 0,43 \pi )$. 
+A diferença de fase é $\phi = (0,40 \pi  \pm 0,02 \pi ) \, rad$ - semelhante à simulação.\\
+
+Por fim, para $f = 300kHz$: canal 1, $A = (1,96 \pm 0,09)$V, $f = (600 \pm 6)kHz$ e $V = 1,96sen(600000 \pi t + 0,048 \pi )$; canal 2, $A = (1,92 \pm 0,09)$V, $f = (600 \pm 6)kHz$ e $V= 1,92sen(600000 \pi t + 0,069 \pi )$. 
+A diferença de fase é   $\phi  = (0,021 \pi \pm 0,003 \pi ) \, rad$. 
+A simulação se mostrou bem próxima, porém não notamos a diferença de fase por ela ser bem pequena.\\
+
+Analisando os resultados para as três frequências temos que para frequências de menor magnitude, o capacitor provoca forte atenuação do sinal -amplitude muito reduzida. 
+Porém, ainda podemos ver o sinal, com muito ruído e com deslocamento temporal. 
+O aumento da frequência torna o filtro menos eficiente, sendo que quando $f = 300kHz$, as amplitudes dos canais 1 e 2 são muito próximas. \\
+
+Para o circuito D, deixando o gerador com $f = 100Hz$ e $Vpp = 8V$, obtivemos: canal 1, $A = (3,1   \pm  0,2)$V, $f = (200   \pm  6)Hz$ e $V = 3,1sen(200  \pi t + 0,002  \pi )$; para o canal 2, $A = (1,10   \pm  0,05)$V, $f = (200   \pm  6)Hz$ e $V = 1,1sen(200  \pi t + 0,002  \pi )$, quando $0,007 \, T < t < 0,441 \, T$. 
+Para $ 0 < t < 0,007 \, T$ ou $0,441 \, T < t < T$, $V = 0$, o LED tem comportamento semelhante ao do diodo, a partir de determinado valor de tensão, o LED permite que a corrente passe. Verificando a diferença de fase, temos que estão em fase assim utilizamos a incerteza como valor, $\phi = (0,002\pi) \,rad$.\\
+
+O aumento da frequência leva o LED a piscar cada vez mais rápido. 
+Para frequências superiores a 40Hz não notamos mais o LED piscar. 
+Ainda, comparando os tipos de ondas, temos as seguintes observações: para onda triangular, o LED acende e apaga mais rapidamente, e emite uma luz menos intensa; para onda quadrada, o LED demora mais para apagar e emite uma luz mais intensa; para a onda seno, o LED fica tempo um pouco menor aceso e apresenta um brilho menor na comparação com a onda quadrada. \\
+
+Portanto, as simulações ficaram muito próximas dos resultados experimentais. 
+Apenas o circuito B e C tiveram alguma divergência. Para o B, na simulação notamos uma diferença de fase, já no experimento não foi possível observar. 
+Assim, aumentamos o tempo analisado na simulação - aumento do número de ondas - e chegamos em um comportamento igual ao do experimento. 
+Logo, a diferença é mínima quando analisada em um conjunto de ondas. 
+No circuito C para frequência $f = 300kHz$ não foi possível notar diferença de fase na simulação. 
+No experimento, por outro lado, encontramos  $\phi = 0,021 \pi \, rad$, um valor diminuto e, por essa razão, não foi representado na simulação. 
+Já no caso do LED, o formato das ondas interfere na duração em que o LED se mantém aceso e na intensidade de luz emitida. 
+Ainda, o aumento da frequência nos leva a não mais identificar que o LED está piscando.\\
+
+
+
+
+
+
+
+
+
+
+%======================================================
+\end{document}
